@@ -1,0 +1,947 @@
+@charset= "utf-8";
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.c3 {
+  color: #333333;
+}
+.c6 {
+  color: #666666;
+}
+.navbar {
+  margin: 0 auto;
+  border: none;
+  height: 120px;
+}
+.navbar-top {
+  height: 30px;
+  line-height: 30px;
+  background-color: #000;
+}
+
+.navbar-top span {
+  font-size: 14px;
+  font-family: 'Myriad Pro';
+  color: rgba(255, 255, 255, 0.902);
+  line-height: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+.navbar-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 95px;
+}
+
+.navbar-bottom-lf {
+  display: flex;
+}
+.navbar-bottom-lf a img {
+  width: 215px;
+  height: 60px;
+}
+.navbar-bottom-lf span {
+  font-size: 30px;
+  font-family: 'Myriad Pro';
+  color: rgb(56, 58, 57);
+}
+.navbar-bottom-rt > a {
+  margin-right: 50px;
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.navbar-bottom-rt > a.active {
+  color: rgb(35, 92, 168);
+}
+
+.navbar-img img:nth-child(2) {
+  margin: 0 20px;
+}
+.city {
+  background: url(../images/city.png) no-repeat right bottom;
+  display: inline-block;
+  width: 60px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.tel {
+  font-size: 16px;
+  color: #666666;
+  float: left;
+  margin-right: 32px;
+}
+.tel img {
+  padding-right: 5px;
+}
+.container-tell {
+  margin-top: 24px;
+}
+
+.form {
+  width: 177px;
+  float: right;
+  position: relative;
+  left: 25px;
+}
+.form input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px #cdcdcd solid;
+  border-radius: 33px;
+  padding-left: 20px;
+  background: url(../img/icon/search.png) center right no-repeat;
+  background-size: 17px;
+  background-position: 140px 6px;
+}
+.form button {
+  width: 27px;
+  position: absolute;
+  height: 27px;
+  right: 30px;
+  top: 3px;
+  opacity: 0;
+  cursor: pointer;
+}
+.banner .swiper-container {
+  width: 100%;
+  height: 655px;
+}
+.banner .swiper-container .swiper-slide {
+  background: url(../images/banner.png) center center no-repeat;
+  background-size: cover;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 0;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-button-next.swiper-button-white {
+  width: 45px;
+  height: 89px;
+  margin-right: 150px;
+  background-image: url(../img/right.png) !important;
+  background-size: 100%;
+}
+
+.swiper-button-prev.swiper-button-white {
+  width: 45px;
+  height: 89px;
+  margin-left: 150px;
+  background-image: url(../img/left.png) !important;
+  background-size: 100%;
+}
+
+/* 第二部分 */
+.title-box {
+}
+
+.title-box div span {
+  background: #c2c2c2;
+  display: block;
+  width: 8px;
+  height: 8px;
+  float: left;
+}
+.title-box div {
+  float: left;
+  margin-left: 12px;
+  margin-top: 16px;
+}
+.title-box div i {
+  width: 910px;
+  background: #e3e5e2;
+  height: 1px;
+  display: block;
+  float: left;
+  margin-top: 3px;
+}
+.title-box {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.title-box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a.more {
+  font-size: 14px;
+  color: #333333;
+  float: right;
+  transform: scale(0.85);
+  line-height: 40px;
+}
+.banner-up {
+  position: absolute;
+  z-index: 99;
+  top: 123px;
+  left: 478px;
+}
+.banner-up .bg {
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: url('../img/btn.png') no-repeat;
+  background-size: 100%;
+  font-size: 20px;
+  font-family: 'Myriad Pro';
+  color: rgb(255, 255, 255);
+}
+.banner-up > img {
+  margin: 35px 0 25px 0;
+}
+.banner-up > span {
+  display: inherit;
+  font-size: 70px;
+  font-family: 'Myriad Pro';
+  color: rgb(255, 255, 255);
+}
+.banner-up ul {
+  margin-bottom: 55px;
+}
+.banner-up ul li {
+  display: inline;
+  font-size: 20px;
+  font-family: 'Myriad Pro';
+  color: rgb(255, 255, 255);
+  margin-right: 33px;
+}
+/* 第二部分 */
+.box {
+}
+
+.box-part1 {
+  display: flex;
+  margin: 40px 0 57px 0;
+}
+
+.box-part1-item {
+  width: 294px;
+  height: 197px;
+  border: 1px solid red;
+  margin-right: 10px;
+}
+
+.box-part1 .box-part1-item:last-child {
+  margin-right: 0;
+}
+
+.box-part2 {
+}
+
+.box-part2 .title,
+.box3 .title {
+  font-size: 150px;
+  font-family: 'Arial';
+  color: rgba(204, 204, 204, 0.502);
+}
+
+.box-part2 .blue,
+.box3 .blue {
+  font-size: 70px;
+  font-family: 'Myriad Pro';
+  color: rgb(35, 92, 168);
+  margin-top: -60px;
+}
+
+.box-part2-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-part2-bottom-lf .txt {
+  width: 720px;
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  line-height: 1.8;
+  margin: 60px 0;
+}
+
+.imgTxt {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 612px;
+}
+
+.imgTxt .item {
+  display: flex;
+  width: 276px;
+}
+
+.imgTxt .item:nth-child(3),
+.imgTxt .item:nth-child(4) {
+  margin-top: 27px;
+}
+
+.imgTxt .item > img {
+  margin-right: 30px;
+}
+
+.imgTxt .item:nth-child(1) > img {
+  width: 52px;
+  height: 66px;
+}
+
+.imgTxt .item:nth-child(2) > img {
+  width: 51px;
+  height: 70px;
+}
+
+.imgTxt .item:nth-child(3) > img {
+  width: 70px;
+  height: 60px;
+  margin-top: 27px;
+}
+
+.imgTxt .item:nth-child(4) > img {
+  width: 73px;
+  height: 65px;
+  margin-top: 27px;
+}
+
+.imgTxt .item span {
+  display: block;
+  font-size: 24px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+}
+
+.imgTxt .item i {
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.box-part2-bottom-rt > div {
+  width: 308px;
+  height: 462px;
+  background: url('../img/idx-part-bg.png') no-repeat;
+  background-size: 100%;
+}
+
+.box-part2-bottom-rt > div img {
+  margin: 10px 0 0 10px;
+}
+
+/* 第三部分 */
+
+.box2 {
+  width: 100%;
+  height: 167px;
+  line-height: 167px;
+  background: url('../img/idx011.jpg') no-repeat;
+  background-size: 100%;
+  margin: 46px 0 43px 0;
+}
+
+.box2 .box2-container {
+  width: 1175px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2 p {
+  display: inline-block;
+  font-size: 55px;
+  font-family: 'Myriad Pro';
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+}
+
+.box2 span {
+  display: inline-block;
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: url('../img/btn.png') no-repeat;
+  font-size: 20px;
+  font-family: 'Myriad Pro';
+  color: rgb(255, 255, 255);
+}
+
+.box3 .box3-bottom {
+  display: flex;
+  margin: 50px 0;
+}
+
+.box3-bottom-lf {
+  display: flex;
+}
+
+.box3-bottom-lf ul {
+  border-right: 1px dashed #eee;
+}
+
+.box3-bottom-lf ul li {
+  width: 129px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+}
+
+.box3-bottom-lf ul li.active {
+  background: url('../img/icon/dialog-box.png') no-repeat;
+  background-size: 100%;
+}
+
+.box3-bottom-rt {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-left: 47px;
+}
+
+.box-text {
+  display: none;
+}
+
+.box-text.show {
+  display: block;
+}
+
+.box3-bottom-rt .item {
+  display: flex;
+  width: 390px;
+}
+
+.box3-bottom-rt .item:nth-child(3),
+.box3-bottom-rt .item:nth-child(4) {
+  margin-top: 55px;
+}
+
+.box3-bottom-rt .item > span {
+  line-height: 58px;
+  font-size: 72px;
+  font-family: 'Myriad Pro';
+  color: rgb(35, 92, 168);
+  border-right: 1px solid rgb(35, 92, 168);
+  margin-right: 12px;
+  padding-right: 10px;
+}
+
+.box3-bottom-rt .item-rt span {
+  display: inherit;
+  width: 290px;
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(35, 92, 168);
+  margin-bottom: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box3-bottom-rt .item-rt p {
+  width: 290px;
+  font-size: 12px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* box4 */
+
+.box4 {
+  height: 167px;
+  margin: 0 0 60px 0;
+  background: url('../img/idx02.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.box4 .box4-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 920px;
+  height: 167px;
+  margin: 0 auto;
+}
+.box4-container .item {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.box4-container .item img {
+  width: 109px;
+  height: 109px;
+}
+
+.box4-container .item span {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+/* box5 */
+.box5 {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  padding-bottom: 36px;
+  margin: 0 auto;
+}
+
+.box5-lf {
+  width: 432px;
+  padding-right: 35px;
+  border-right: 1px dashed #eee;
+}
+.box5-lf > img {
+  height: 60px;
+}
+
+.box5-lf-bottom {
+  display: flex;
+  margin-top: 47px;
+}
+
+.box5-lf-bottom img {
+  width: 52px;
+  height: 47px;
+  margin-right: 12px;
+}
+
+.box5-lf-bottom > div p {
+  font-size: 19.42px;
+  font-family: 'Myriad Pro';
+  color: rgb(65, 182, 208);
+}
+
+.box5-lf-bottom > div span {
+  font-size: 34.32px;
+  font-family: 'Myriad Pro';
+  color: rgb(65, 182, 208);
+}
+
+.box-rt {
+  display: flex;
+}
+
+.box-rt .item {
+  margin-right: 70px;
+}
+
+.box-rt .item:last-child {
+  margin-right: 0;
+}
+
+.box-rt .item > span {
+  display: block;
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  margin-bottom: 35px;
+}
+
+.box-rt .item ul li {
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 67px;
+  background-color: #000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* 关于我们 */
+.aboutus-banner {
+  height: 278px;
+  background: url('../img/aboutus01.png') no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.aboutus-banner .banner-up {
+  top: 64px;
+  left: 413px;
+}
+
+.aboutus-banner .banner-up > img {
+  margin: 30px 0 25px 0;
+}
+
+.current-location {
+  height: 52px;
+  line-height: 52px;
+  background-color: #e5e5e5;
+}
+
+.current-location > div {
+  width: 1150px;
+  margin: 0 auto;
+}
+.current-location > div p {
+  color: #999;
+  font-size: 14px;
+  font-family: 'Myriad Pro';
+  float: right;
+}
+
+.current-location > div p i {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+}
+
+/* 关于我们文字 */
+
+.aboutus-txt {
+  margin: 47px 0 65px 0;
+}
+
+.aboutus-txt-box {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.aboutus-txt-top {
+  text-align: center;
+}
+
+.aboutus-txt-top > span {
+  display: inline-block;
+  font-size: 39px;
+  font-family: 'Myriad Pro';
+  color: rgba(102, 102, 102, 0.8);
+  margin-bottom: 20px;
+}
+
+.aboutus-txt-top > p {
+  font-size: 20px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+}
+
+.aboutus-txt-top > p span {
+  margin: 0 15px;
+}
+
+.aboutus-txt-top > p i {
+  display: inline-block;
+  width: 164px;
+  height: 2px;
+  background-color: #cccccc;
+  position: relative;
+  top: -5px;
+}
+
+.aboutus-txt-top > img {
+  width: 32px;
+  height: 4px;
+  margin: 30px 0 40px 0;
+}
+
+.aboutus-txt-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutus-txt-bottom-lf {
+  width: 585px;
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+}
+
+.aboutus-txt-bottom-lf > p {
+  margin: 35px 0;
+}
+
+.aboutus-txt-bottom > img {
+  width: 501px;
+  height: 437px;
+}
+
+/* 联系我们 */
+
+.contact-us .aboutus-txt-bottom {
+}
+
+.aboutus-txt-bottom form {
+  width: 460px;
+}
+
+.aboutus-txt-bottom form input {
+  width: 460px;
+  height: 36px;
+  outline: none;
+  border: 1px solid #999999;
+  border-radius: 8px;
+  margin: 14px 0 19px 0;
+  padding-left: 10px;
+}
+
+.aboutus-txt-bottom form button {
+  width: 155px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  background: url('../img/icon/sub.png') no-repeat;
+  background-size: 100%;
+  font-size: 20px;
+  font-family: 'Myriad Pro';
+  color: rgb(255, 255, 255);
+  border: none;
+  float: right;
+  margin-top: 4px;
+}
+
+.aboutus-txt-bottom-rt {
+  margin-left: 63px;
+}
+
+.aboutus-txt-bottom-rt > img {
+  width: 292px;
+  height: 120px;
+}
+
+.aboutus-txt-bottom-rt > div {
+  margin-left: 51px;
+}
+
+.aboutus-txt-bottom-rt > div span {
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+  margin-bottom: 37px;
+}
+
+.aboutus-txt-bottom-rt > div p {
+  color: #bcbcbc;
+}
+
+.aboutus-txt-bottom-rt > .ditu {
+  width: 558px;
+  height: 222px;
+  background: url('../img/about03.png') no-repeat;
+  background-size: 100%;
+}
+
+/* 资金服务 */
+.financial-services {
+  background: url(../img/f01.jpg) no-repeat;
+}
+
+.financial-services-bg {
+  height: 698px;
+  text-align: center;
+  background: url('../img/f02.png') no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.financial-services-bg .box {
+  width: 1532px;
+  display: flex;
+  float: right;
+}
+
+.financial-services-bg .box-lf-top {
+  position: relative;
+  left: 30px;
+}
+
+.financial-services-bg .box-lf-top span {
+  width: 24px;
+  display: table-cell;
+  font-size: 19px;
+  font-family: 'Myriad Pro';
+  color: rgb(48, 47, 45);
+  position: relative;
+  top: -63px;
+  left: -12px;
+}
+
+.financial-services-bg .box-lf-top img {
+  width: 34px;
+  height: 67px;
+}
+
+.financial-services-bg .box-lf {
+  margin-top: 76px;
+}
+
+.box-lf-bottom {
+  text-align: left;
+}
+
+.box-lf-bottom > span {
+  display: block;
+  margin: 0 0 40px 0;
+  font-size: 35px;
+  font-family: 'Myriad Pro';
+  color: rgb(48, 47, 45);
+}
+
+.box-lf-bottom > img {
+  margin-bottom: 42px;
+}
+
+.box-lf-bottom ul {
+  font-size: 18px;
+  font-family: 'Myriad Pro';
+  color: rgb(51, 51, 51);
+  line-height: 2;
+}
+
+.box-lf-bottom ul li.active {
+  color: rgb(35, 92, 168);
+}
+
+.financial-services-bg .box-rt {
+  width: 1358px;
+  height: 501px;
+  background: rgba(255, 255, 255, 0.788);
+  position: absolute;
+  right: 0;
+  top: 102px;
+  z-index: 54;
+}
+
+.financial-services-bg .box-rt .arrow {
+}
+
+.financial-services-bg .box-rt-nav {
+  margin-left: 70px;
+}
+
+.financial-services-bg .box-rt-txt > span {
+  display: block;
+  font-size: 20px;
+  font-family: 'Myriad Pro';
+  color: rgb(33, 86, 161);
+  margin: 15px 0 10px 0;
+}
+.financial-services-bg .box-rt-txt {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+}
+
+/* 资金服务-swiper */
+.box-rt-nav .swiper-container {
+  height: 501px;
+}
+
+.financial-services-bg .box-rt .swiper-pagination {
+  width: 10px;
+  margin: 217px 25px 0 27px;
+}
+
+.financial-services-bg .box-rt .swiper-button-prev {
+  height: 22px;
+  top: 180px;
+  left: 20px;
+  transform: rotate(180deg);
+  position: relative;
+  background-image: url('../img/icon/pull.png');
+  background-size: 26px 14px;
+}
+
+.financial-services-bg .box-rt .swiper-button-next {
+  height: 22px;
+  top: 320px;
+  left: 19px;
+  background-image: url('../img/icon/pull.png');
+  background-size: 26px 14px;
+}
+
+.financial-services-bg .prev {
+  color: rgb(250, 103, 29);
+  position: absolute;
+  top: 185px;
+  left: 26px;
+  font-size: 14px;
+  font-family: 'Myriad Pro';
+}
+
+.financial-services-bg .next {
+  position: absolute;
+  top: 278px;
+  left: 24px;
+  font-size: 14px;
+  font-family: 'Myriad Pro';
+  color: rgb(250, 103, 29);
+}
+
+.financial-services-bg .swiper-pagination-bullet-active {
+  background: #ff9900;
+}
+
+/* 公司注册 */
+
+.company-registration {
+  height: 280px;
+  background: url(../img/c01.jpg) no-repeat;
+}
+
+.company .box-part1{
+  margin:65px 0;
+}
+
+.company .box-part1 .box-part1-item{
+  width:278px;
+  height: 255px;
+  margin-right: 35px;
+}
+
+.company .box-part1 .box-part1-item:last-child{
+  margin-right: 0;
+}
+
+
+.company-middle{
+  height: 793px;
+  text-align: center;
+  background: url('../img/c02.png') no-repeat;
+  background-size: 100% 100%
+}
