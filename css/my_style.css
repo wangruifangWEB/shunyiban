@@ -583,6 +583,7 @@ a.more {
 footer {
   width: 100%;
   height: 67px;
+  color: #fff;
   background-color: #000;
   text-align: center;
   padding-top: 20px;
@@ -924,24 +925,712 @@ footer {
   background: url(../img/c01.jpg) no-repeat;
 }
 
-.company .box-part1{
-  margin:65px 0;
+.company .box-part1 {
+  margin: 65px 0;
 }
 
-.company .box-part1 .box-part1-item{
-  width:278px;
+.company .box-part1 .box-part1-item {
+  width: 278px;
   height: 255px;
   margin-right: 35px;
 }
 
-.company .box-part1 .box-part1-item:last-child{
+.company .box-part1 .box-part1-item:last-child {
   margin-right: 0;
 }
 
-
-.company-middle{
+.company-middle {
   height: 793px;
   text-align: center;
   background: url('../img/c02.png') no-repeat;
-  background-size: 100% 100%
+  background-size: 100% 100%;
+}
+
+.company-middle .txt {
+  display: flex;
+  justify-content: space-between;
+  width: 1180px;
+  margin: 0 auto;
+  font-family: 'Myriad Pro';
+  padding-top: 70px;
+}
+
+.company-middle .txt .txt-lf {
+  width: 422px;
+  text-align: left;
+}
+
+.company-middle .txt-lf > span {
+  display: inherit;
+  font-size: 38px;
+  color: rgb(58, 39, 79);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 60px;
+}
+
+.company-middle .txt-lf > div i {
+  color: rgb(255, 0, 0);
+  font-style: normal;
+}
+
+.company-middle .txt-lf > div {
+  font-size: 22px;
+}
+
+.company-middle .txt-lf > div p {
+  line-height: 1.8;
+}
+
+.company-middle .txt-rt {
+  text-align: left;
+}
+
+.company-middle .txt-rt > span {
+  display: inherit;
+  text-align: left;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 60px;
+}
+
+.company-middle .txt-rt ul li {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  border: 1px dashed #dae9f4;
+  width: 405px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/*  */
+.company-simple {
+  margin-top: 72px;
+}
+.company-simple-bg {
+  width: 1388px;
+  height: 618px;
+  text-align: center;
+  background: url('../img/c03.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 100;
+  position: relative;
+  top: -90px;
+}
+
+.company-simple-content {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 4.5%;
+}
+
+/* .company-simple-content .item {
+  margin-right: 50px;
+  border-bottom: 1px solid #f67e4f;
+  text-align: left;
+}
+.company-simple-content .item div {
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.company-simple-content .item > div span {
+  margin-left: 12px;
+} */
+
+.company-regist {
+  margin-top: -70px;
+}
+
+.company-regist-bg {
+  height: 330px;
+  text-align: center;
+  background: url('../img/c04.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.company-regist-box {
+  width: 1180px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.company-regist-box .item {
+  display: flex;
+  float: left;
+}
+
+.company-regist-box .item:nth-child(1) div {
+  width: 191px;
+}
+
+.company-regist-box .item:nth-child(2) div {
+  width: 323px;
+  margin-right: 53px;
+}
+
+.company-regist-box .item:nth-child(3) div {
+  width: 352px;
+}
+
+.company-regist-box .item:nth-child(4) div {
+  width: 416px;
+  margin-right: 63px;
+}
+
+.company-regist-box .item:nth-child(5) div {
+  width: 368px;
+}
+
+.company-regist-box .item:nth-child(4) {
+  margin-top: 57px;
+}
+
+.company-regist-box .item:nth-child(5) {
+  margin-top: 63px;
+}
+
+.company-regist-box div p {
+  display: block;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+}
+
+.company-regist-box div {
+}
+
+.company-regist-box .item span {
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+}
+
+.company-regist-box .item img {
+  height: 69px;
+  margin-right: 15px;
+}
+
+/* 税务筹划 */
+.tax-planning {
+  height: 278px;
+  background: url(../img/s01.jpg) no-repeat;
+}
+
+.tax-location {
+  background-color: #f6f4f4;
+}
+
+.tax-location > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tax-location a {
+  font-size: 16px;
+  font-family: 'Myriad Pro';
+  color: rgb(102, 102, 102);
+}
+.tax-location a:nth-child(1) {
+  margin-right: 20px;
+}
+
+.tax-location a.active {
+  color: rgb(0, 0, 0);
+}
+
+.tax-location a.active:after {
+  width: 0;
+  height: 0;
+  content: '';
+  display: inline-block;
+  border: 15px solid transparent;
+  border-left: 10px solid #fff;
+  position: relative;
+  top: 23px;
+  left: -50px;
+  transform: rotate(270deg);
+}
+
+.tax-content {
+  height: 663px;
+  background: url('../img/s03.jpg') no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Myriad Pro';
+}
+
+.tax-content .aboutus-txt,
+.tax-content2 .aboutus-txt {
+  padding-top: 40px;
+  margin: 0;
+}
+
+.tax-content .aboutus-txt-top > span,
+.tax-content2 .aboutus-txt-top > span {
+  font-size: 32px;
+  color: rgb(51, 51, 51);
+}
+.tax-content-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tax-content-bottom > img {
+  width: 365px;
+  height: 419px;
+}
+
+.txt-box {
+  width: 1200px;
+}
+
+.tax-content-bottom .item span {
+  display: inherit;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  width: 393px;
+  height: 75px;
+  background-size: 100% 100%;
+}
+
+.tax-content-bottom .item:nth-child(1) span {
+  background: url('../img/icon/s01.png') no-repeat;
+}
+
+.tax-content-bottom .item:nth-child(2) span {
+  background: url('../img/icon/s02.png') no-repeat;
+  margin-top: 40px;
+}
+
+.tax-col2 .item:nth-child(1) span {
+  background: url('../img/icon/s03.png') no-repeat;
+}
+
+.tax-col2 .item:nth-child(2) span {
+  background: url('../img/icon/s04.png') no-repeat;
+}
+
+.tax-content-bottom .item span i {
+  font-style: normal;
+  position: relative;
+  top: 20px;
+  left: 125px;
+}
+
+.tax-content-bottom .item:nth-child(2) p {
+  margin: 10px 0 0 0;
+}
+
+.tax-content-bottom .item:nth-child(2) span i {
+  left: 42px;
+}
+
+.tax-col2 .item:nth-child(1) p {
+  margin: 20px 0 0 0;
+}
+
+.tax-col2 .item:nth-child(1) span i {
+  left: 45px;
+}
+
+.tax-col2 .item:nth-child(2) p {
+  margin: 10px 0 0 60px;
+}
+
+.tax-col2 .item:nth-child(2) span i {
+  left: 122px;
+}
+
+.tax-content-bottom .item p {
+  width: 345px;
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  margin: 10px 0 0 60px;
+}
+
+/* txt-box2 */
+.tax-content2 {
+  height: 849px;
+  font-family: 'Myriad Pro';
+  background: url('../img/s04.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.tax-content2 .txt-box {
+  width: 1120px;
+}
+
+.tax-content2 .aboutus-txt {
+  padding: 47px 0 65px 0;
+  margin: 0;
+}
+
+.tax-content2-bottom .item > p {
+  font-size: 32px;
+  color: rgb(246, 120, 98);
+}
+
+.tax-content2-bottom ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 40px 0 35px 0;
+}
+
+.tax-content2-bottom ul li {
+  width: 483px;
+  height: 43px;
+  line-height: 43px;
+  background: url('../img/icon/s05.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.item-line2 {
+  display: flex;
+  justify-content: space-between;
+  width: 925px;
+  margin: 0 auto;
+}
+
+.tax-box2 {
+  height: 216px;
+  line-height: 216px;
+  background: url(../img/s05.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.tax-content3 {
+  height: 622px;
+  font-family: 'Myriad Pro';
+  background: url(../img/s07-bg.png) no-repeat;
+}
+
+.tax-content3 .txt-box {
+  width: 1200px;
+}
+
+.tax-content3-bottom > img {
+  width: 1191px;
+  height: 338px;
+}
+
+/* 合法优惠税收 */
+.tax-content4 .tax-content-bottom > img {
+  width: 258px;
+  height: 393px;
+}
+
+.tax-content4 .item:nth-child(1) span {
+  background: url(../img/icon/s08.png) no-repeat;
+}
+
+.tax-content4 .item:nth-child(2) span {
+  background: url(../img/icon/s10.png) no-repeat;
+  margin-top: 40px;
+}
+.tax-content4 .tax-col3 .item:nth-child(1) span {
+  background: url(../img/icon/s09.png) no-repeat;
+}
+
+.tax-content4 .tax-col3 .item:nth-child(2) span {
+  background: url(../img/icon/s11.png) no-repeat;
+}
+
+.tax-content4 .tax-content-bottom .item span {
+  width: 329px;
+  height: 83px;
+}
+
+.tax-content4 .tax-content-bottom .item span i {
+  left: 89px;
+}
+
+.tax-content4 .tax-content-bottom .item p {
+  margin: 10px;
+}
+
+/* 代理记账 */
+.bookkeeping.tax-content {
+  height: 800px;
+  background: #fff;
+  font-family: 'Myriad Pro';
+}
+
+.bookkeeping .txt-box {
+  width: 1170px;
+  position: absolute;
+  z-index: 999;
+  left: -64%;
+}
+
+.bitm-rt-bg {
+  width: 960px;
+  height: 801px;
+  background: url(../img/d01.png) no-repeat;
+  position: absolute;
+  right: 0;
+  /* opacity: .4; */
+}
+
+.bitem-middle {
+  display: flex;
+}
+
+.bitem-middle .bitem-lf {
+  margin-top: 58px;
+}
+
+.bitem-bg {
+  width: 320px;
+  height: 136px;
+  border: 1px solid #eee;
+  margin-bottom: 22px;
+}
+
+.bitem p {
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
+
+.bitem-txt p:nth-child(1) {
+  margin-left: -182px;
+  margin-top: 6px;
+}
+
+.bitem-txt p:nth-child(2) {
+  margin-left: -93px;
+  margin-top: 33px;
+}
+
+.bitem-txt p:nth-child(3) {
+  margin-left: -42px;
+  margin-top: 36px;
+}
+
+.bitem-txt p:nth-child(4) {
+  margin-left: -15px;
+  margin-top: 36px;
+}
+
+.bitem-txt p:nth-child(5) {
+  margin-left: -2px;
+  margin-top: 33px;
+}
+
+.bitem-txt p:nth-child(6) {
+  margin-left: -10px;
+  margin-top: 38px;
+}
+
+.bitem-txt p:nth-child(7) {
+  margin-left: -43px;
+  margin-top: 31px;
+}
+
+.bitem-txt p:nth-child(8) {
+  margin-left: -85px;
+  margin-top: 31px;
+}
+
+.bitem-txt p:nth-child(9) {
+  margin-left: -178px;
+  margin-top: 19px;
+}
+
+/* bookkeeping-content2 */
+.bookkeeping-content2 {
+  height: 757px;
+  background: #fff;
+  font-family: 'Myriad Pro';
+}
+
+.bookkeeping-content2-bottom {
+  display: flex;
+  width: 1163px;
+  height: 463px;
+  text-align: left;
+  background: url(../img/d03.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.bookkeeping-content2-bottom .item {
+  width: 130px;
+  text-align: center;
+  position: relative;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(1) {
+  top: 50%;
+  left: 20px;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(2) {
+  top: 20%;
+  left: 56px;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(3) {
+  top: 50%;
+  left: 94px;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(4) {
+  top: 20%;
+  left: 129px;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(5) {
+  top: 56%;
+  left: 162px;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(6) {
+  top: 20%;
+  left: 197px;
+}
+
+.bookkeeping-content2-bottom .item:nth-child(7) {
+  top: 50%;
+  left: 232px;
+}
+
+.bookkeeping-content2-bottom .item span {
+  font-size: 32px;
+  color: rgb(51, 51, 51);
+}
+
+.bookkeeping-content2-bottom .item p {
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+}
+
+/* bookkeeping-content3 */
+.bookkeeping-content3 {
+  height: 564px;
+  font-family: 'Myriad Pro';
+  background: url(../img/d04.png) no-repeat;
+}
+
+.bookkeeping-content3-bottom {
+  display: inline-block;
+  width: 714px;
+  height: 321px;
+  background: url(../img/d05.png) no-repeat;
+}
+
+.bookkeeping-content3-bottom p {
+  width: 432px;
+  font-size: 26px;
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  text-align: left;
+  position: relative;
+}
+
+.bookkeeping-content3-bottom p:nth-child(1) {
+  left: 143px;
+}
+
+.bookkeeping-content3-bottom p:nth-child(2) {
+  left: 102%;
+  top: -23%;
+}
+
+.bookkeeping-content3-bottom p:nth-child(3) {
+  left: 20%;
+  top: 24%;
+}
+
+.bookkeeping-content3-bottom p:nth-child(4) {
+  left: 103%;
+  top: -3%;
+}
+
+/* bookkeeping-content4 */
+.bookkeeping-content4 {
+  height: 508px;
+  background: #fff;
+}
+
+.tax-content4-bottom {
+  display: flex;
+  justify-content: space-around;
+  height: 264px;
+  font-family: 'Myriad Pro';
+  background: url(../img/d06.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.tax-content4-bottom .item {
+  color: rgb(255, 255, 255);
+  margin-top: 60px;
+}
+
+.tax-content4-bottom .item span {
+  font-size: 50px;
+}
+
+.tax-content4-bottom .item p {
+  font-size: 26px;
+}
+
+.tax-content4-bottom .item:nth-child(1) {
+  position: relative;
+  left: 10px;
+}
+
+.tax-content4-bottom .item:nth-child(2) {
+  position: relative;
+  left: 6px;
+}
+
+/* bookkeeping-content5 */
+.bookkeeping-content5 {
+  height: 500px;
+  background: url(../img/d07.jpg) no-repeat;
+}
+
+.tax-content5-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tax-content5-bottom .item {
+  width: 379px;
+  height: 226px;
+  background: url(../img/d08.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 0 0 40px;
+}
+
+.tax-content5-bottom .item:nth-child(2) {
+  background: url(../img/d09.png) no-repeat;
+}
+
+.tax-content5-bottom .item:nth-child(3) {
+  background: url(../img/d10.png) no-repeat;
+}
+.tax-content5-bottom .item span {
+  font-size: 19px;
+  color: rgb(51, 51, 51);
+}
+
+.tax-content5-bottom .item p {
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
 }
