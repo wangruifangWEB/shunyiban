@@ -7,17 +7,13 @@
     content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/basic_style.css" />
   <link rel="stylesheet" href="css/my_style.css" />
-  <link rel="stylesheet" href="css/swiper.css" />
-  <script type="text/javascript" src="js/jquery1.42.min.js"></script>
-  <script type="text/javascript" src="js/swiper.min.js"></script>
-  <script type="text/javascript" src="js/my_js.js"></script>
+  <link rel="stylesheet" href="css/aos.css">
   <title>公司注册</title>
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper company-regist-container">
     <nav class="navbar">
       <div class="navbar-top">
         <div class="container">
@@ -31,18 +27,15 @@
       <div class="container navbar-bottom">
         <div class="navbar-bottom-lf">
           <a href="index.html">
-            <img src="img/logo.png" />
+            <img src="img/logo.jpg" />
           </a>
-          <div class="navbar-img">
-            <img src="img/icon/v-line.png" alt="">
-            <img src="img/icon/logo-text.png" alt="">
-          </div>
         </div>
         <div class="navbar-bottom-rt">
           <a href="index.html">首页</a>
-          <a  class="active" href="company-registration.html">公司注册</a>
+          <a class="active" href="company-registration.html">公司注册</a>
           <a href="tax-planning.html">税务代办</a>
           <a href="financialServices.html">资金服务</a>
+          <a href="infoCenter.html">资讯中心</a>
           <a href="aboutus.html">关于我们</a>
           <div class="form">
             <form action="">
@@ -100,37 +93,38 @@
           <img src="img/icon/line.png" alt="" />
         </div>
 
-        <div class="aboutus-txt-bottom company">
-          <div class="box-part1">
-            <div class="box-part1-item">
-              <p>公司注册</p>
+        <div class="aboutus-txt-bottom company" data-aos="fade-up">
+          <div class="company-list">
+            <div class="company-item">
+              <img src="img/com-list01.png" alt="">
               <div>
-                <span>立即咨询</span>
-                <a href="">more</a>
+                <span>在线咨询 核准名称</span>
+                <a href="aboutus.html">立即咨询</a>
               </div>
             </div>
 
-            <div class="box-part1-item">
-              <p>公司注册</p>
+            <div class="company-item">
+              <img src="img/com-list02.png" alt="">
               <div>
-                <span>立即咨询</span>
-                <a href="">more</a>
+                <span>签订合同支付 提交资料</span>
+                <a href="aboutus.html">立即咨询</a>
               </div>
             </div>
 
-            <div class="box-part1-item">
-              <p>公司注册</p>
+            <div class="company-item">
+              <img src="img/com-list03.png" alt="">
+
               <div>
-                <span>立即咨询</span>
-                <a href="">more</a>
+                <span>领取执照 刻制印章</span>
+                <a href="aboutus.html">立即咨询</a>
               </div>
             </div>
 
-            <div class="box-part1-item">
-              <p>公司注册</p>
+            <div class="company-item">
+              <img src="img/com-list04.png" alt="">
               <div>
-                <span>立即咨询</span>
-                <a href="">more</a>
+                <span>交付材料 服务完成</span>
+                <a href="aboutus.html">立即咨询</a>
               </div>
             </div>
           </div>
@@ -138,7 +132,7 @@
       </div>
 
 
-      <div class="company-middle">
+      <div class="company-middle" data-aos="fade-up">
         <div class="txt">
           <div class="txt-lf">
             <span>作为创业者,在创业初期在创业初期在创业初期在创业初期</span>
@@ -160,7 +154,7 @@
           </div>
 
           <div class="txt-rt">
-            <span>顺义办 让老板创业更简单</span>
+            <span>顺易办 让老板创业更简单</span>
             <ul>
               <li>充分利用地区差异 , 选择合理注册地址</li>
               <li>合理运用税收杠杆 , 匹配注册资金方案</li>
@@ -171,87 +165,127 @@
         </div>
       </div>
 
+      <div class="company-simple-box" data-aos="fade-up">
+        <div class="aboutus-txt-box company-simple">
+          <div class="aboutus-txt-top">
+            <span>一站式企业服务，摆脱繁复流程，让创业更简单</span>
+            <p>
+              <i></i>
+              <span>注册完成，即可领取以下证件</span>
+              <i></i>
+            </p>
+            <img src="img/icon/line.png" alt="" />
+          </div>
+          <div class='company-simple-bg'>
+            <div class="company-simple-content">
+              <div class="item">
+                <img src="img/c05.png" alt="">
+                <div>
+                  <em>01</em>
+                  <span>营业执照正本</span>
+                </div>
+              </div>
 
-      <div class="aboutus-txt-box company-simple">
-        <div class="aboutus-txt-top">
-          <span>一站式企业服务，摆脱繁复流程，让创业更简单</span>
-          <p>
-            <i></i>
-            <span>注册完成，即可领取以下证件</span>
-            <i></i>
-          </p>
-          <img src="img/icon/line.png" alt="" />
+              <div class="item">
+                <img src="img/c06.png" alt="">
+                <div>
+                  <em>02</em>
+                  <span>营业执照副本</span>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/c07.png" alt="">
+                <div>
+                  <em>03</em>
+                  <span>社会信用代码证明</span>
+                </div>
+              </div>
+
+
+              <div class="item">
+                <img src="img/c08.png" alt="">
+                <div>
+                  <em>04</em>
+                  <span>公司章程</span>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/c09.png" alt="">
+                <div>
+                  <em>05</em>
+                  <span>公司印章及印鉴存留卡</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class='company-simple-bg'>
-          <div class="company-simple-content">
-            <img src="img/c001.jpg" alt="">
+
+
+        <div class="aboutus-txt-box company-regist">
+          <div class="aboutus-txt-top" ata-aos="fade-up">
+            <span>公司注册成功后，还需要做什么？</span>
+            <p>
+              <i></i>
+              <span>简单五步，无后顾之忧</span>
+              <i></i>
+            </p>
+            <img src="img/icon/line.png" alt="" />
           </div>
         </div>
+        <div class="company-regist-bg">
+          <div class="company-regist-box" data-aos="fade-up">
+            <ul>
+              <li class="item">
+                <img src="img/icon/c01.png" alt="">
+                <div>
+                  <span>银行开户</span>
+                  <p>开设日常使用的基本对公银行账户</p>
+                </div>
+              </li>
 
-      </div>
+              <li class="item">
+                <img src="img/icon/c02.png" alt="">
+                <div>
+                  <span>财税记账</span>
+                  <p>A.完成公司注册,需先办理税务报道</p>
+                  <p>B.成立第一个月起,需要会计每月记账报税.</p>
+                </div>
+              </li>
 
-      <div class="aboutus-txt-box company-regist">
-        <div class="aboutus-txt-top">
-          <span>公司注册成功后，还需要做什么？</span>
-          <p>
-            <i></i>
-            <span>简单五步，无后顾之忧</span>
-            <i></i>
-          </p>
-          <img src="img/icon/line.png" alt="" />
+
+              <li class="item">
+                <img src="img/icon/c03.png" alt="">
+                <div>
+                  <span>社保开户</span>
+                  <p>《社会保险法》规定，用人单位应当自成立之日起三十日内申请办理社会保险登记.</p>
+                </div>
+              </li>
+
+
+              <li class="item">
+                <img src="img/icon/c04.png" alt="">
+                <div>
+                  <span>申请税控及发票</span>
+                  <p>企业如需卡发票，还需要申办税控器，参加税控使用培训，
+                    核定申请发票，完成申请后，企业可自行发票。</p>
+                </div>
+              </li>
+
+
+              <li class="item">
+                <img src="img/icon/c05.png" alt="">
+                <div>
+                  <span>商标申请</span>
+                  <p>商标是企业的无形资产，企业经营的品牌价值，都融于商标</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="company-regist-bg">
-        <div class="company-regist-box">
-          <ul>
-            <li class="item">
-              <img src="img/icon/c01.png" alt="">
-              <div>
-                <span>银行开户</span>
-                <p>开设日常使用的基本对公银行账户</p>
-              </div>
-            </li>
-
-            <li class="item">
-              <img src="img/icon/c02.png" alt="">
-              <div>
-                <span>财税记账</span>
-                <p>A.完成公司注册,需先办理税务报道</p>
-                <p>B.成立第一个月起,需要会计每月记账报税.</p>
-              </div>
-            </li>
-
-
-            <li class="item">
-              <img src="img/icon/c03.png" alt="">
-              <div>
-                <span>社保开户</span>
-                <p>《社会保险法》规定，用人单位应当自成立之日起三十日内申请办理社会保险登记.</p>
-              </div>
-            </li>
-
-
-            <li class="item">
-              <img src="img/icon/c04.png" alt="">
-              <div>
-                <span>申请税控及发票</span>
-                <p>企业如需卡发票，还需要申办税控器，参加税控使用培训，
-                  核定申请发票，完成申请后，企业可自行发票。</p>
-              </div>
-            </li>
-
-
-            <li class="item">
-              <img src="img/icon/c05.png" alt="">
-              <div>
-                <span>商标申请</span>
-                <p>商标是企业的无形资产，企业经营的品牌价值，都融于商标</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
 
       <div class="box4">
         <div class="box4-container">
@@ -280,7 +314,7 @@
       <!-- box5 -->
       <div class="box5">
         <div class="box5-lf">
-          <img src="img/logo.png" alt="" />
+          <img src="img/logo.jpg" alt="" />
           <div class="box5-lf-bottom">
             <img src="img/icon/tel.png" alt="" />
             <div>
@@ -293,35 +327,47 @@
           <div class="item">
             <span>公司注册</span>
             <ul>
-              <li>公司注册</li>
+              <li>
+                <a href="company-registration.html">公司注册</a>
+              </li>
             </ul>
           </div>
 
           <div class="item">
             <span>税务代办</span>
             <ul>
-              <li>税务筹划</li>
-              <li>代理记账</li>
+              <li><a href="tax-planning.html">税务筹划</a></li>
+              <li><a href="bookkeeping.html">代理记账</a></li>
             </ul>
           </div>
 
           <div class="item">
             <span>资金服务</span>
             <ul>
-              <li>实缴验资</li>
-              <li>摆账显账</li>
-              <li>工程亮资</li>
-              <li>银行冲量</li>
-              <li>存单质押</li>
-              <li>公司走账</li>
-              <li>资质证明</li>
+              <li><a href="financialServices.html">实缴验资</a></li>
+              <li><a href="financialServices.html">摆账显账</a></li>
+              <li><a href="financialServices.html">工程亮资</a></li>
+              <li><a href="financialServices.html">银行冲量</a></li>
+              <li><a href="financialServices.html">存单质押</a></li>
+              <li><a href="financialServices.html">公司走账</a></li>
+              <li><a href="financialServices.html">资质证明</a></li>
+            </ul>
+          </div>
+
+
+          <div class="item">
+            <span>资讯中心</span>
+            <ul>
+              <li><a href="">工商资讯</a></li>
+              <li><a href="">财务知识</a></li>
+              <li><a href="">热门推荐</a></li>
             </ul>
           </div>
 
           <div class="item">
             <span>关于我们</span>
             <ul>
-              <li>关于我们</li>
+              <li><a href="aboutus.html">关于我们</a></li>
             </ul>
           </div>
 
@@ -343,13 +389,13 @@
         <p>京ICP备11004072号-1</p>
       </footer>
     </div>
-
+  </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/my_js.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
     <script>
-      var mySwiper = new Swiper('.swiper-container', {
-        loop: true,
-        prevButton: '.swiper-button-prev',
-        nextButton: '.swiper-button-next'
-      })
+      // 页面加载动画
+      AOS.init();
     </script>
 </body>
 

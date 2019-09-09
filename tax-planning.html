@@ -8,12 +8,9 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/basic_style.css" />
     <link rel="stylesheet" href="css/my_style.css" />
-    <link rel="stylesheet" href="css/swiper.css" />
-    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
-    <script type="text/javascript" src="js/swiper.min.js"></script>
-    <script type="text/javascript" src="js/my_js.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+   
     <title>税务筹划</title>
   </head>
 
@@ -32,18 +29,15 @@
         <div class="container navbar-bottom">
           <div class="navbar-bottom-lf">
             <a href="index.html">
-              <img src="img/logo.png" />
+              <img src="img/logo.jpg" />
             </a>
-            <div class="navbar-img">
-              <img src="img/icon/v-line.png" alt="" />
-              <img src="img/icon/logo-text.png" alt="" />
-            </div>
           </div>
           <div class="navbar-bottom-rt">
             <a href="index.html">首页</a>
             <a href="company-registration.html">公司注册</a>
             <a class="active" href="tax-planning.html">税务代办</a>
             <a href="financialServices.html">资金服务</a>
+            <a href="infoCenter.html">资讯中心</a>
             <a href="aboutus.html">关于我们</a>
             <div class="form">
               <form action="">
@@ -103,40 +97,39 @@
               <img src="img/icon/line.png" alt="" />
             </div>
 
-           <div class="tax-content-bottom">
-             <div class="tax-content-col">
-                <div class="item">
-                    <span>
-                      <i>价格透明</i>
-                    </span>
-                    <p>服务透明、价格透明，无隐形收费</p>
+            <div class="tax-content-bottom">
+              <div class="tax-content-col">
+                <div class="item" data-aos="fade-down-left">
+                  <span>
+                    <i>企业所得税高！！</i>
+                  </span>
+                  <p>企业每年产生的利润要缴纳25%的企业所得税！</p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-down-right">
                   <span>
                     <i>个人所得税高！！</i>
                   </span>
                   <p>高收入群体，缴纳较高的个税，利润分红还需缴纳20%的个税！</p>
                 </div>
-             </div>
+              </div>
 
-             <img src="img/s02.png" alt="" />
+              <img src="img/s02.png" alt="" class="tax-img-animate"/>
 
-             <div class="tax-content-col tax-col2">
-                <div class="item">
-                    <span>
-                      <i>营改增税负高！！</i>
-                    </span>
-                    <p>营改增后税负成本反而更高！</p>
+              <div class="tax-content-col tax-col2">
+                <div class="item" data-aos="fade-down-right">
+                  <span>
+                    <i>营改增税负高！！</i>
+                  </span>
+                  <p>营改增后税负成本反而更高！</p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-down-left">
                   <span>
                     <i>财税问题难解！！</i>
                   </span>
-                  <p>公司财务部税务筹划水平不够，不能
-                      确保公司最大利益！</p>
+                  <p>公司财务部税务筹划水平不够，不能 确保公司最大利益！</p>
                 </div>
-             </div>
-           </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -156,7 +149,7 @@
 
             <div class="tax-content2-bottom">
               <div class="item">
-                  <p>某企业2016年收入1000万，成本：500万，利润500万。</p>
+                <p>某企业2016年收入1000万，成本：500万，利润500万。</p>
               </div>
               <ul>
                 <li>
@@ -181,35 +174,39 @@
             </div>
 
             <div class="item-line2">
-              <div class="item">
+              <div class="item" data-aos="flip-left">
+                <img src="img/shui-lf.png" alt="">
                 <span>税收筹划前</span>
               </div>
               <div class="item">
                 <img src="img/icon/s07.png" alt="" />
               </div>
-              <div class="item">
+              <div class="item" data-aos="flip-right">
+                <img src="img/shui-rt.png" alt="">
                 <span>税收筹划后</span>
               </div>
             </div>
 
-        
-       </div>
+            <div class="item-line3" data-aos="zoom-in-up">
+              <img src="img/icon/good.png" alt="">
+              <span>通过我们的税收筹划，综合税率直降<i>91.25</i>%</span>
+            </div>
+          </div>
         </div>
       </div>
-     
 
       <!-- 立即咨询 -->
       <div class="box2 tax-box2">
         <div class="box2-container">
           <p>助您解决企业发展中的财务问题</p>
-          <span>立即咨询</span>
+          <a href="aboutus.html">立即咨询</a>
         </div>
       </div>
 
       <!-- 税收优惠服务 -->
       <div class="tax-content2 tax-content3">
         <div class="aboutus-txt">
-          <div class="aboutus-txt-box txt-box">
+          <div class="aboutus-txt-box txt-box" data-aos="flip-up">
             <div class="aboutus-txt-top">
               <span>简单四步让您享受高品质税收优惠服务</span>
               <p>
@@ -221,7 +218,7 @@
             </div>
 
             <div class="tax-content3-bottom">
-                <img src="img/s08.png" alt="" />
+              <img src="img/s08.png" alt="" />
             </div>
           </div>
         </div>
@@ -229,57 +226,55 @@
 
       <!-- 四大优势,合法节税 -->
       <div class="tax-content tax-content4">
-          <div class="aboutus-txt">
-            <div class="aboutus-txt-box txt-box">
-              <div class="aboutus-txt-top">
-                <span>四大优势让您无忧财税，安全合法节税</span>
-                <p>
-                  <i></i>
-                  <span>为什么选择我们？</span>
-                  <i></i>
-                </p>
-                <img src="img/icon/line.png" alt="" />
-              </div>
-  
-             <div class="tax-content-bottom">
-               <div class="tax-content-col">
-                  <div class="item">
-                      <span>
-                        <i>价格透明</i>
-                      </span>
-                      <p>服务透明、价格透明，无隐形收费</p>
-                  </div>
-                 
+        <div class="aboutus-txt">
+          <div class="aboutus-txt-box txt-box">
+            <div class="aboutus-txt-top" data-aos="fade-up">
+              <span>四大优势让您无忧财税，安全合法节税</span>
+              <p>
+                <i></i>
+                <span>为什么选择我们？</span>
+                <i></i>
+              </p>
+              <img src="img/icon/line.png" alt="" />
+            </div>
 
-                  <div class="item">
-                    <span>
-                      <i>一站式管理</i>
-                    </span>
-                    <p>全流程管理，企业无需配备其他人员，
-                      真正实现一键无忧</p>
+            <div class="tax-content-bottom" data-aos="fade-up">
+              <div class="tax-content-col">
+                <div class="item">
+                  <span>
+                    <i>价格透明</i>
+                  </span>
+                  <p>服务透明、价格透明，无隐形收费</p>
                 </div>
-               </div>
-  
-               <img src="img/s09.png" alt="" />
-  
-               <div class="tax-content-col tax-col3">
+
+                <div class="item">
+                  <span>
+                    <i>一站式管理</i>
+                  </span>
+                  <p>全流程管理，企业无需配备其他人员， 真正实现一键无忧</p>
+                </div>
+              </div>
+
+              <img src="img/s09.png" alt="" />
+
+              <div class="tax-content-col tax-col3">
                 <div class="item">
                   <span>
                     <i>专业团队</i>
                   </span>
                   <p>10年税务筹划经验，历经风雨的会计师团队</p>
                 </div>
-                  <div class="item">
-                    <span>
-                      <i>互动体验</i>
-                    </span>
-                    <p>办理过程实时反馈、实时查询，智能 一站式税</p>
-                  </div>
-               </div>
-             </div>
+                <div class="item">
+                  <span>
+                    <i>互动体验</i>
+                  </span>
+                  <p>办理过程实时反馈、实时查询，智能 一站式税</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
 
       <div class="box4">
         <div class="box4-container">
@@ -307,63 +302,74 @@
 
       <!-- box5 -->
       <div class="box5">
-        <div class="box5-lf">
-          <img src="img/logo.png" alt="" />
-          <div class="box5-lf-bottom">
-            <img src="img/icon/tel.png" alt="" />
-            <div>
-              <p>24小时服务热线</p>
-              <span>400-966-9606</span>
+          <div class="box5-lf">
+            <img src="img/logo.jpg" alt="" />
+            <div class="box5-lf-bottom">
+              <img src="img/icon/tel.png" alt="" />
+              <div>
+                <p>24小时服务热线</p>
+                <span>400-966-9606</span>
+              </div>
+            </div>
+          </div>
+          <div class="box-rt">
+            <div class="item">
+              <span>公司注册</span>
+              <ul>
+                <li>
+                  <a href="company-registration.html">公司注册</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="item">
+              <span>税务代办</span>
+              <ul>
+                <li><a href="tax-planning.html">税务筹划</a></li>
+                <li><a href="bookkeeping.html">代理记账</a></li>
+              </ul>
+            </div>
+  
+            <div class="item">
+              <span>资金服务</span>
+              <ul>
+                <li><a href="financialServices.html">实缴验资</a></li>
+                <li><a href="financialServices.html">摆账显账</a></li>
+                <li><a href="financialServices.html">工程亮资</a></li>
+                <li><a href="financialServices.html">银行冲量</a></li>
+                <li><a href="financialServices.html">存单质押</a></li>
+                <li><a href="financialServices.html">公司走账</a></li>
+                <li><a href="financialServices.html">资质证明</a></li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <span>资讯中心</span>
+              <ul>
+                <li><a href="">工商资讯</a></li>
+                <li><a href="">财务知识</a></li>
+                <li><a href="">热门推荐</a></li>
+              </ul>
+            </div>
+  
+            <div class="item">
+              <span>关于我们</span>
+              <ul>
+                <li><a href="aboutus.html">关于我们</a></li>
+              </ul>
+            </div>
+  
+            <div class="item">
+              <span>联系我们</span>
+              <ul>
+                <li>服务热线：</li>
+                <li>400-966-9606</li>
+                <li>客服邮箱：</li>
+                <li>beijing@quanjing.com</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="box-rt">
-          <div class="item">
-            <span>公司注册</span>
-            <ul>
-              <li>公司注册</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>税务代办</span>
-            <ul>
-              <li>税务筹划</li>
-              <li>代理记账</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>资金服务</span>
-            <ul>
-              <li>实缴验资</li>
-              <li>摆账显账</li>
-              <li>工程亮资</li>
-              <li>银行冲量</li>
-              <li>存单质押</li>
-              <li>公司走账</li>
-              <li>资质证明</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>关于我们</span>
-            <ul>
-              <li>关于我们</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>联系我们</span>
-            <ul>
-              <li>服务热线：</li>
-              <li>400-966-9606</li>
-              <li>客服邮箱：</li>
-              <li>beijing@quanjing.com</li>
-            </ul>
-          </div>
-        </div>
-      </div>
 
       <!-- footer -->
       <footer>
@@ -372,12 +378,12 @@
       </footer>
     </div>
 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/my_js.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
     <script>
-      var mySwiper = new Swiper('.swiper-container', {
-        loop: true,
-        prevButton: '.swiper-button-prev',
-        nextButton: '.swiper-button-next'
-      })
+      // 页面加载动画
+    AOS.init();
     </script>
   </body>
 </html>

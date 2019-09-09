@@ -1,4 +1,5 @@
 $(function() {
+
   // 首页点击切换
   $('.box3-bottom-lf ul li').click(function() {
     var idx = $(this).index()
@@ -15,14 +16,13 @@ $(function() {
       .removeClass('show')
   })
 
-  // swiper
-  $('.box-lf-bottom ul li').click(function(){
-    var idx=$(this).index();
-    var prev = $('.prev').text();
-    $(this).addClass('active').siblings().removeClass('active');
-    mySwiper.slideTo(idx, 1000, false);//切换到slide，速度为1秒
-    $('#prev').html('0' + parseInt(idx + 1))
+  // 资讯中心
+  $('.info-lf').click(function(){
+    console.log('上一页');
+  })
 
+  $('.info-rt').click(function(){
+    console.log('下一页');
   })
 })
  // 关于我们表单提交验证

@@ -1,284 +1,626 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/basic_style.css" />
-    <link rel="stylesheet" href="css/my_style.css" />
-    <link rel="stylesheet" href="css/swiper.css" />
-    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
-    <script type="text/javascript" src="js/swiper.min.js"></script>
-    <script type="text/javascript" src="js/my_js.js"></script>
-    <title>资金服务</title>
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <nav class="navbar">
-        <div class="navbar-top">
-          <div class="container">
-            <div class="rt">
-              <img src="img/icon/hot.png" alt="" />
-              <span>24小时服务热线：400-966-960</span>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/my_style.css" />
+  <link rel="stylesheet" href="css/swiper.css" />
+
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+  <link href="css/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    html,
+    body,
+    .wrapper {
+      height: 100%;
+      /* overflow: hidden; */
+    }
+  </style>
+
+
+  <title>资金服务</title>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar">
+      <div class="navbar-top">
+        <div class="my-container">
+          <div class="rt">
+            <img src="img/icon/hot.png" alt="" />
+            <span>24小时服务热线：400-966-960</span>
           </div>
         </div>
+      </div>
 
-        <div class="container navbar-bottom">
-          <div class="navbar-bottom-lf">
-            <a href="index.html">
-              <img src="img/logo.png" />
-            </a>
-            <div class="navbar-img">
-              <img src="img/icon/v-line.png" alt="" />
-              <img src="img/icon/logo-text.png" alt="" />
-            </div>
-          </div>
-          <div class="navbar-bottom-rt">
-            <a href="index.html">首页</a>
-            <a href="company-registration.html">公司注册</a>
-            <a href="tax-planning.html">税务代办</a>
-            <a  class="active" href="financialServices.html">资金服务</a>
-            <a href="aboutus.html">关于我们</a>
-            <div class="form">
-              <form action="">
-                <input type="text" placeholder="请输入搜索的内容" />
-                <button type="submit"></button>
-              </form>
-            </div>
+      <div class="my-container navbar-bottom">
+        <div class="navbar-bottom-lf">
+          <a href="index.html">
+            <img src="img/logo.jpg" />
+          </a>
+        </div>
+        <div class="navbar-bottom-rt">
+          <a href="index.html">首页</a>
+          <a href="company-registration.html">公司注册</a>
+          <a href="tax-planning.html">税务代办</a>
+          <a class="active" href="financialServices.html">资金服务</a>
+          <a href="infoCenter.html">资讯中心</a>
+          <a href="aboutus.html">关于我们</a>
+          <div class="form">
+            <form action="">
+              <input type="text" placeholder="请输入搜索的内容" />
+              <button type="submit"></button>
+            </form>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- banner -->
-      <div class="aboutus-banner financial-services">
-        <div class="banner-up">
-          <span>专业办理资金业务</span>
-          <img src="img/sq.png" alt="" />
-          <ul>
-            <li>
-              <img src="img/icon/yes.png" alt="" />
-              大额保险
+    <div class="aboutus-banner financial-services">
+      <div class="banner-up">
+        <span>专业办理资金业务</span>
+        <img src="img/sq.png" alt="" />
+        <ul>
+          <li>
+            <img src="img/icon/yes.png" alt="" />
+            大额保险
+          </li>
+          <li>
+            <img src="img/icon/yes.png" alt="" />
+            大额显账摆账
+          </li>
+          <li>
+            <img src="img/icon/yes.png" alt="" />
+            24小时急速完成
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- current-location -->
+    <div class="current-location">
+      <div>
+        <p>您当前的位置：首页 > 资金服务 > <i>实缴验资</i></p>
+      </div>
+    </div>
+
+    <!-- 资金服务 -->
+    <div class="financial-services-bg">
+      <div class="bg bg-fruits">
+        <div class="page-box indicators-line">
+          <ul class="carousel-indicators" id="navBar2">
+            <li class="active">
+              <div class="pro-icon-bg">实缴验资</div>
             </li>
             <li>
-              <img src="img/icon/yes.png" alt="" />
-              大额显账摆账
+              <div class="pro-icon-bg">摆账显账</div>
             </li>
             <li>
-              <img src="img/icon/yes.png" alt="" />
-              24小时急速完成
+              <div class="pro-icon-bg">工程亮资</div>
+            </li>
+            <li>
+              <div class="pro-icon-bg">银行冲量</div>
+            </li>
+            <li>
+              <div class="pro-icon-bg">存单质押</div>
+            </li>
+            <li>
+              <div class="pro-icon-bg">公司走账</div>
+            </li>
+            <li>
+              <div class="pro-icon-bg">资质证明</div>
             </li>
           </ul>
-        </div>
-      </div>
 
-      <!-- current-location -->
-      <div class="current-location">
-        <div>
-          <p>您当前的位置：首页 > 资金服务 > <i>实缴验资</i></p>
-        </div>
-      </div>
+          <div id="pageContain" class="fruits">
+            <!-- 第一大类 -->
+            <div class="page current">
+              <div class="fruits-box">
+                <div class="carousel bs-slider fade">
+                  <div class="navbar-bg">
+                    <ul class="navBar" id="nav-slide">
+                      <li class="active">
+                        <p>
+                          <i>美元验资</i>
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <i>内资验资</i>
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <i>企业资质</i>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
 
-      <!-- 资金服务 -->
-      <div class="financial-services-bg">
-        <div class="box">
-          <div class="box-lf">
-            <div class="box-lf-top">
-              <img src="img/icon/f-line.png" alt="" />
-              <span>Financial Services</span>
-            </div>
+                  <div class="carousel-inner">
 
-            <div class="box-lf-bottom">
-              <span>资金服务</span>
-              <img src="img/icon/f-line02.png" alt="" />
-              <ul>
-                <li class="active">实缴验资</li>
-                <li>摆账显账</li>
-                <li>工程亮资</li>
-                <li>银行冲量</li>
-                <li>存单质押</li>
-                <li>公司走账</li>
-                <li>资质证明</li>
-              </ul>
-            </div>
-          </div>
-          <div class="box-rt">
-            <div class="arrow">
-              <div class="swiper-button-prev"></div>
-              <span id="prev" class="prev">01</span>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
-              <span id="next" class="next"></span>
-            </div>
-            <div class="box-rt-nav">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="box-rt-txt">
-                      <span>美元验资</span>
-                      <p>适用对象：中外合资企业，纯外资企业</p>
-                      <p>独家服务：可提供相应合同</p>
-                      <p>外商投资企业增加注册资本的具体程序：</p>
-                      <p>(1)企业向北京市商务局提交董事会决议和董事长签署的申请书等文件。</p>
-                      <p>(2)经审查同意后，企业按照变更登记的有关规定，向工商行政管理机关申请 办理变更登记。</p>
-                      <p>增资流程</p>
-                      <p>1、开立股东会</p>
-                      <p>股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。</p>
-                      <p>2、开立验资账户</p>
-                      <p>
-                        开立验资账户所需材料：营业执照原件、组织机构代码证原件、税务登记证原件、开户许可证原件、公章、财务章、法人章、股东
-                      </p>
-                      <p>章、股东身份证原件、增资股东会决议及验资户银行的各种开户表格。</p>
-                      <p>3、增资资本进账询证</p>
-                      <p>
-                        以各个投资人的身份打入相应的投资比例的增资资本，增资资本进账后与会计师事务所联系索取询证函，交到验资账户银行领取三
-                      </p>
-                      <p>单：进账单、对账单、询证函。</p>
-                      <p>4、出具增资验资报告</p>
-                      <p>
-                        三单领取后带着增资股东会决议、章程修正案或章程及公司相关证件至会计师事务所出具增资验资报告。增资验资报告出具后可至
-                      </p>
-                      <p>
-                        工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后
-                      </p>
-                      <p>领取增资后的营业执照。</p>
+                    <div class="item active">
+                      <div class="slide-text slide_style_left">
+                        <h3 class="pro-title" data-animation="animated fadeInUp1">美元验资<br></h3>
+                        <div class="text-box">
+                          <p>独家服务：可提供相应合同</p>
+                          <p>外商投资企业增加注册资本的具体程序：</p>
+                          <p> (1)企业向北京市商务局提交董事会决议和董事长签署的申请书等文件。</p>
+                          <p>(2)经审查同意后，企业按照变更登记的有关规定，向工商行政管理机关申请办理变更登记。</p>
+                          <p>增资流程</p>
+                          <p> 1、开立股东会</p>
+                          <p>股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。</p>
+                          <p>2、开立验资账户</p>
+                          <p>开立验资账户所需材料：营业执照原件、组织机构代码证原件、税务登记证原件、开户许可证原件、公章、财务章、法人章、股东章、股东身份证原件、增资股东会决议及验资户银行的各种开户表格。
+                          </p>
+                          <p> 3、增资资本进账询证</p>
+                          <p> 以各个投资人的身份打入相应的投资比例的增资资本，增资资本进账后与会计师事务所联系索取询证函，交到验资账户银行领取三<br />
+                            单：进账单、对账单、询证函。</p>
+                          <p>4、出具增资验资报告</p>
+                          <p>
+                            三单领取后带着增资股东会决议、章程修正案或章程及公司相关证件至会计师事务所出具增资验资报告。增资验资报告出具后可至工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后
+                            领取增资后的营业执照。</p>
+
+                        </div>
+                        <a data-animation="animated fadeInUp1" href="javascript:;" class="tm-btn-clk tm-btn1">了解详情</a>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="slide-text slide_style_left">
+                        <h3 class="pro-title" data-animation="animated fadeInUp1">内资验资<br></h3>
+                        <p data-animation="animated fadeInUp1">
+                          <div class="text-box">
+                            <p>企业验资如何操作<br />
+                              创业后的您是否在为公司的相关资金类业务所操心?是否在为企业验资如何操作而发愁?是否还在纠结究竟该找一家什么样的工商机构来帮您代办这些资金业务!别怕，无论您是想咨询企业验资如何操作，还是想代办企业验资、显账摆账等相关业务，聚贤之地—您的首选!
+                              <br />
+                              企业验资如何操作?企业验资又需要准备哪些资料呢?<br />
+                              1. 到工商行政管理局登记分局进行公司名称核准，领取公司名称核准通知书。<br />
+                              2.
+                              起草公司章程，并由各股东签字(章)确认。公司章程需明确规定各股东的投资金额、所占股权比例及出资方式(现金或实物资产，无形资产)。<br />
+                              3. 凭工商管理部门的公司名称核准通知书到银行开设公司临时帐户。<br />
+                              4.
+                              各股东全部以现金出资的，应根据公司名称核准通知书及公司章程规定的投资比例及投资金额，分别将投资款缴存公司临时帐户，缴存投资款可采用银行转帐或直接缴存现金两种方式。<br />
+                              需注意的是，股东在缴存投资款时，在银行进帐单或现金缴款单的“款项用途”栏应填写“XX(股东名称)投资款”。<br />
+                              股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。<br />
+                              5.股东如以实物资产(固定资产、存货等)或无形资产(专利、专有技术)出资，则该部分实物资产或无形资产需经过持有资产评估资格的会计师事务所或资产评估公司评估，并以经评估后的评估价值作为股东的投入额。以实物资产作价投入的，所作价投入的实物资产不得超过公司申请的注册资本额的50%;以无形资产作价投入的，所作价投入的无形资产不得超过公司申请的注册资本额的20%。
+                              <br />
+                              6. 与会计师事务所签订验资业务委托书，委托会计师事务所验资。验资时需向提供以下资料：<br />
+                              (1) 公司名称核准通知书;<br />
+                              (2) 公司章程;<br />
+                              (3) 股东身份证明，个人股东提供身份证，法人(公司)股东提供营业执照;<br />
+                              (4) 股东投资款缴存银行的银行进帐单(支票头)或现金缴款单;<br />
+                              (5)如个人股东是以个人存折转帐缴存投资款的，则需提供个人存折;提供以上资料时，会计师事务所需验原件后留存复印件。<br />
+                              7. 协助会计师事务所到公司开户银行询证股东投资款实际到们情况。
+                              8. 一个工作日后到会计师事务所领取验资报告，并到工商行政管理局登记分局专门登记备案。<br />
+                            </p>
+                          </div>
+                          <a data-animation="animated fadeInUp1" href="javascript:;" class="tm-btn-clk tm-btn1">了解详情</a>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="slide-text slide_style_left">
+                        <h3 class="pro-title" data-animation="animated fadeInUp1">企业资质<br></h3>
+                        <div class="text-box">
+                          <p data-animation="animated fadeInUp1">
+                            1、开立股东会<br />
+                            股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。<br />
+                            2、开立验资账户<br />
+                            开立验资账户所需材料：营业执照原件、组织机构代码证原件、税务登记证原件、开户许可证原件、公章、财务章、法人章、股东章、股东身份证原件、增资股东会决议及验资户银行的各种开户表格。
+                            <br />
+                            3、增资资本进账询证<br />
+                            以各个投资人的身份打入相应的投资比例的增资资本，增资资本进账后与会计师事务所联系索取询证函，交到验资账户银行领取三单：进账单、对账单、询证函。
+                            <br />
+                            4、出具增资验资报告<br />
+                            三单领取后带着增资股东会决议、章程修正案或章程及公司相关证件至会计师事务所出具增资验资报告。增资验资报告出具后可至工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后领取增资后的营业执照。
+                            <br />
+                            增资业务范畴<br />
+                            1、上市公司
+                            <br />
+                            协助上市公司上市，提供上下流公司。出具对应公司业务合同及发票，方便会计处理账务。<br />
+                            2、政府招商引资
+                            <br />
+                            协助客户融资，出具银行贷款相关凭证，方便客户及时拿到银行贷款额度及授信额度。
+                            <br />
+                            3、投标实力证明<br />
+                            协助完成投标人的综合实力信誉证明，帮助投标客户顺利拿下标书。<br />
+                            4、财务指导
+                            <br />
+                            工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后
+                            <br />
+                            专业会计事务所会计师，专业解答您财务疑惑，提供专业的财务指导与服务。<br />
+                          </p>
+                        </div>
+                        <a data-animation="animated fadeInUp1" href="javascript:;" class="tm-btn-clk tm-btn1">了解详情</a>
+                      </div>
                     </div>
                   </div>
-                  <div class="swiper-slide">222222222222222222222</div>
-                  <div class="swiper-slide">3333333333333333333333333</div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 第二大类 -->
+            <div class="page page1">
+              <div class="fruits-box">
+                <div class="carousel bs-slider fade">
+                  <div class="navbar-bg">
+                    <ul class="navBar" id="nav-slide">
+                      <li class="active">
+                        <p>
+                          <i>摆账显账</i>
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <i>摆账显账2</i>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <div class="slide-text slide_style_left">
+                        <h3 class="pro-title" data-animation="animated fadeInUp1">摆账显账1<br></h3>
+                        <div class="text-box">
+                          <p data-animation="animated fadeInUp1">
+                            摆账显账内容1
+                          </p>
+                        </div>
+
+                        <a data-animation="animated fadeInUp1" href="javascript:;" class="tm-btn-clk tm-btn1">了解详情</a>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="slide-text slide_style_left">
+                        <h3 class="pro-title" data-animation="animated fadeInUp1">摆账显账2<br></h3>
+                        <div class="text-box">
+                          <p data-animation="animated fadeInUp1">
+                            摆账显账内容2
+                          </p>
+                        </div>
+
+                        <a data-animation="animated fadeInUp1" href="javascript:;" class="tm-btn-clk tm-btn1">了解详情</a>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- 内页弹窗 -->
+      <div class="sidebar-box">
+        <div class="mask" style="display: none"></div>
+        <div class="info-box pro-info-box">
+          <div class="sidebar-bg" style="width: 100%; height: 100%; display: none; position: fixed; top:0; left:0;">
+          </div>
+          <div class="pro-info-box1" style="filter:">
+            <div class="close-btn"></div>
+            <div class="store-li clearfix">
+            </div>
+            <div class="prt-layer-box">
+              <div class="item active">
+                <div><span class="pro-title1">美元验资</span></div>
+                <div class="pro-info content-1">
+                  <p>
+                    适用对象：中外合资企业，纯外资企业<br />
+                    独家服务：可提供相应合同<br />
+                    外商投资企业增加注册资本的具体程序：<br />
+                    (1)企业向北京市商务局提交董事会决议和董事长签署的申请书等文件。<br />
+                    (2)经审查同意后，企业按照变更登记的有关规定，向工商行政管理机关申请办理变更登记。<br />
+                    增资流程<br />
+                    1、开立股东会<br />
+                    股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。<br />
+                    2、开立验资账户<br />
+                    开立验资账户所需材料：营业执照原件、组织机构代码证原件、税务登记证原件、开户许可证原件、公章、财务章、法人章、股东<br />
+                    章、股东身份证原件、增资股东会决议及验资户银行的各种开户表格。<br />
+                    3、增资资本进账询证<br />
+                    以各个投资人的身份打入相应的投资比例的增资资本，增资资本进账后与会计师事务所联系索取询证函，交到验资账户银行领取三<br />
+                    单：进账单、对账单、询证函。<br />
+                    4、出具增资验资报告<br />
+
+                    三单领取后带着增资股东会决议、章程修正案或章程及公司相关证件至会计师事务所出具增资验资报告。增资验资报告出具后可至<br />
+                    工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后
+                    <br />
+                    领取增资后的营业执照。<br />
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="item">
+                <div><span class="pro-title1">内资验资</span></div>
+                <div class="pro-info content-1">
+                  <p>企业验资如何操作<br />
+                    创业后的您是否在为公司的相关资金类业务所操心?是否在为企业验资如何操作而发愁?是否还在纠结究竟该找一家什么样的工商机构来帮您代办这些资金业务!别怕，无论您是想咨询企业验资如何操作，还是想代办企业验资、显账摆账等相关业务，聚贤之地—您的首选!
+                    <br />
+                    企业验资如何操作?企业验资又需要准备哪些资料呢?<br />
+                    1. 到工商行政管理局登记分局进行公司名称核准，领取公司名称核准通知书。<br />
+                    2.
+                    起草公司章程，并由各股东签字(章)确认。公司章程需明确规定各股东的投资金额、所占股权比例及出资方式(现金或实物资产，无形资产)。<br />
+                    3. 凭工商管理部门的公司名称核准通知书到银行开设公司临时帐户。<br />
+                    4.
+                    各股东全部以现金出资的，应根据公司名称核准通知书及公司章程规定的投资比例及投资金额，分别将投资款缴存公司临时帐户，缴存投资款可采用银行转帐或直接缴存现金两种方式。<br />
+                    需注意的是，股东在缴存投资款时，在银行进帐单或现金缴款单的“款项用途”栏应填写“XX(股东名称)投资款”。<br />
+                    股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。<br />
+                    5.股东如以实物资产(固定资产、存货等)或无形资产(专利、专有技术)出资，则该部分实物资产或无形资产需经过持有资产评估资格的会计师事务所或资产评估公司评估，并以经评估后的评估价值作为股东的投入额。以实物资产作价投入的，所作价投入的实物资产不得超过公司申请的注册资本额的50%;以无形资产作价投入的，所作价投入的无形资产不得超过公司申请的注册资本额的20%。
+                    <br />
+                    6. 与会计师事务所签订验资业务委托书，委托会计师事务所验资。验资时需向提供以下资料：<br />
+                    (1) 公司名称核准通知书;<br />
+                    (2) 公司章程;<br />
+                    (3) 股东身份证明，个人股东提供身份证，法人(公司)股东提供营业执照;<br />
+                    (4) 股东投资款缴存银行的银行进帐单(支票头)或现金缴款单;<br />
+                    (5)如个人股东是以个人存折转帐缴存投资款的，则需提供个人存折;提供以上资料时，会计师事务所需验原件后留存复印件。<br />
+                    7. 协助会计师事务所到公司开户银行询证股东投资款实际到们情况。</p>
+                  8. 一个工作日后到会计师事务所领取验资报告，并到工商行政管理局登记分局专门登记备案。<br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div><span class="pro-title1">企业资质</span></div>
+                <div class="pro-info content-1">
+                  <p>
+                    1、开立股东会<br />
+                    股东同意此次公司增资，并出具股东会决议、章程（或章程修正案）。<br />
+                    2、开立验资账户<br />
+                    开立验资账户所需材料：营业执照原件、组织机构代码证原件、税务登记证原件、开户许可证原件、公章、财务章、法人章、股东章、股东身份证原件、增资股东会决议及验资户银行的各种开户表格。
+                    <br />
+                    3、增资资本进账询证<br />
+                    以各个投资人的身份打入相应的投资比例的增资资本，增资资本进账后与会计师事务所联系索取询证函，交到验资账户银行领取三单：进账单、对账单、询证函。
+                    <br />
+                    4、出具增资验资报告<br />
+                    三单领取后带着增资股东会决议、章程修正案或章程及公司相关证件至会计师事务所出具增资验资报告。增资验资报告出具后可至工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后领取增资后的营业执照。
+                    <br />
+                    增资业务范畴<br />
+                    1、上市公司
+                    <br />
+                    协助上市公司上市，提供上下流公司。出具对应公司业务合同及发票，方便会计处理账务。<br />
+                    2、政府招商引资
+                    <br />
+                    协助客户融资，出具银行贷款相关凭证，方便客户及时拿到银行贷款额度及授信额度。
+                    <br />
+                    3、投标实力证明<br />
+                    协助完成投标人的综合实力信誉证明，帮助投标客户顺利拿下标书。<br />
+                    4、财务指导
+                    <br />
+                    工商局提交增资变更事项，所需材料：营业执照正副本，企业变更登记申请书，股东会决议、章程、增资验资报告，5个工作日后
+                    <br />
+                    专业会计事务所会计师，专业解答您财务疑惑，提供专业的财务指导与服务。<br />
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="box4">
-        <div class="box4-container">
-          <div class="item">
-            <img src="img/icon/05.png" alt="" />
-            <span>代价透明</span>
-          </div>
+          <div class="pro-info-box1" style="filter:">
+            <div class="close-btn"></div>
+            <div class="store-li clearfix">
+            </div>
+            <div class="prt-layer-box">
+              <div class="item active">
+                摆账显账-1
 
-          <div class="item">
-            <img src="img/icon/06.png" alt="" />
-            <span>金牌服务</span>
-          </div>
+              </div>
 
-          <div class="item">
-            <img src="img/icon/07.png" alt="" />
-            <span>信息保密</span>
-          </div>
+              <div class="item">
+                摆账显账-2
+              </div>
 
-          <div class="item">
-            <img src="img/icon/08.png" alt="" />
-            <span>售后无忧</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- box5 -->
-      <div class="box5">
-        <div class="box5-lf">
-          <img src="img/logo.png" alt="" />
-          <div class="box5-lf-bottom">
-            <img src="img/icon/tel.png" alt="" />
-            <div>
-              <p>24小时服务热线</p>
-              <span>400-966-9606</span>
             </div>
           </div>
-        </div>
-        <div class="box-rt">
-          <div class="item">
-            <span>公司注册</span>
-            <ul>
-              <li>公司注册</li>
-            </ul>
-          </div>
 
-          <div class="item">
-            <span>税务代办</span>
-            <ul>
-              <li>税务筹划</li>
-              <li>代理记账</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>资金服务</span>
-            <ul>
-              <li>实缴验资</li>
-              <li>摆账显账</li>
-              <li>工程亮资</li>
-              <li>银行冲量</li>
-              <li>存单质押</li>
-              <li>公司走账</li>
-              <li>资质证明</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>关于我们</span>
-            <ul>
-              <li>关于我们</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <span>联系我们</span>
-            <ul>
-              <li>服务热线：</li>
-              <li>400-966-9606</li>
-              <li>客服邮箱：</li>
-              <li>beijing@quanjing.com</li>
-            </ul>
-          </div>
         </div>
       </div>
 
-      <!-- footer -->
-      <footer>
-        <p>Copyright © 2004 - 2016 顺易办SYB-企业管理有限公司 版权所有</p>
-        <p>京ICP备11004072号-1</p>
-      </footer>
+
     </div>
 
-    <script>
-      $(function() {
-        init()
+    <!-- 第五部分 -->
+    <div class="box4">
+      <div class="box4-container">
+        <div class="item">
+          <img src="img/icon/05.png" alt="" />
+          <span>代价透明</span>
+        </div>
 
-        function init() {
-          var len = $('.swiper-container .swiper-slide').length
-          if (len < 10) {
-            $('#next').text( '0' + len)
-          }
-        }
-      })
+        <div class="item">
+          <img src="img/icon/06.png" alt="" />
+          <span>金牌服务</span>
+        </div>
 
-      var mySwiper = new Swiper('.swiper-container', {
-        loop: false,
-        direction: 'vertical',
-        pagination: '.swiper-pagination',
-        prevButton: '.swiper-button-prev',
-        nextButton: '.swiper-button-next',
-        onSlideChangeStart: function(swiper) {
-          var index = swiper.activeIndex
-          var prev = $('.prev').text()
-          $('.box-lf-bottom ul li')
-            .eq(index)
-            .addClass('active')
-            .siblings()
-            .removeClass('active')
-          $('#prev').html('0' + parseInt(index + 1))
-          
+        <div class="item">
+          <img src="img/icon/07.png" alt="" />
+          <span>信息保密</span>
+        </div>
+
+        <div class="item">
+          <img src="img/icon/08.png" alt="" />
+          <span>售后无忧</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- box5 -->
+    <div class="box5">
+      <div class="box5-lf">
+        <div class="box5-lf-top">
+          <img src="img/logo.jpg" alt="" />
+        </div>
+
+        <div class="box5-lf-bottom">
+          <img src="img/icon/tel.png" alt="" />
+          <div>
+            <p>24小时服务热线</p>
+            <span>400-966-9606</span>
+          </div>
+        </div>
+      </div>
+      <div class="box-rt">
+        <div class="item">
+          <span>公司注册</span>
+          <ul>
+            <li>
+              <a href="company-registration.html">公司注册</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <span>税务代办</span>
+          <ul>
+            <li><a href="tax-planning.html">税务筹划</a></li>
+            <li><a href="bookkeeping.html">代理记账</a></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <span>资金服务</span>
+          <ul>
+            <li><a href="financialServices.html">实缴验资</a></li>
+            <li><a href="financialServices.html">摆账显账</a></li>
+            <li><a href="financialServices.html">工程亮资</a></li>
+            <li><a href="financialServices.html">银行冲量</a></li>
+            <li><a href="financialServices.html">存单质押</a></li>
+            <li><a href="financialServices.html">公司走账</a></li>
+            <li><a href="financialServices.html">资质证明</a></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <span>关于我们</span>
+          <ul>
+            <li><a href="aboutus.html">关于我们</a></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <span>资讯中心</span>
+          <ul>
+            <li><a href="">工商资讯</a></li>
+            <li><a href="">财务知识</a></li>
+            <li><a href="">热门推荐</a></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <span>联系我们</span>
+          <ul>
+            <li>服务热线：</li>
+            <li>400-966-9606</li>
+            <li>客服邮箱：</li>
+            <li>beijing@quanjing.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Copyright © 2004 - 2016 顺易办SYB-企业管理有限公司 版权所有</p>
+      <p>京ICP备11004072号-1</p>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/my_js.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/fullPage.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script>
+    $('#navBar2 li').click(function () {
+      $('#navBar2 li').removeClass('active');
+      var idx = $(this).index();
+      console.log(idx);
+      $(this).addClass('active').siblings().removeClass('active');
+      $(this).parent().siblings('.fruits').find('.page').eq(idx).addClass('current').siblings('.page').removeClass('current');
+
+      $('.info-box .pro-info-box1').eq(idx).addClass('active').siblings().removeClass('active');
+    })
+
+    $('#nav-slide li').click(function (e) {
+      $('#nav-slide li').removeClass('active');
+      var idx = $(this).index();
+      $(this).addClass('active').siblings().removeClass('active');
+      $(this).parents('.carousel').find('.carousel-inner .item').eq(idx).addClass('active').siblings('.item').removeClass('active');
+      $('.pro-info-box1.active .prt-layer-box .item').eq(idx).addClass('active').siblings().removeClass('active');
+    })
+
+    var runPage;
+    runPage = new FullPage({
+      id: 'pageContain',
+      slideTime: 800,
+      effect: {
+        transform: {
+          scale: [1, 1]
+        },
+        opacity: [0, 1]
+      },
+      mode: 'touch, nav:navBar',
+      easing: 'ease',
+      continuousVertical: 'true'
+    });
+
+  </script>
+  <script>
+    // 初始化弹框内容
+    initBigType();
+
+    $(".tm-btn1").click(function () {
+      $("html").unbind("mode");
+      $('.fruits').attr('id', 'pageContain2');
+      if ($(".mask").display = "block") {
+        $("html").bind('mousewheel', function (event, delta) {
+          return false;
+        });
+      }
+    });
+
+    $(".mask").click(function () {
+      $("html").unbind("mousewheel");
+
+    });
+    $(".close-btn").click(function () {
+      $("html").unbind("mousewheel");
+    });
+
+    function initBigType() {
+      $.each($('#navBar2 li'), function (index, el) {
+        if ($(this).hasClass('active')) {
+          $('.pro-info-box .pro-info-box1').eq(index).addClass('active').siblings('.pro-info-box1').removeClass('active');
         }
-      })
-    </script>
-  </body>
+      });
+    }
+
+
+  </script>
+  <script>
+    (function ($) {
+      $(window).load(function () {
+        $(".content-1").mCustomScrollbar({
+          theme: "minimal"
+        });
+      });
+    })(jQuery);
+  </script>
+</body>
+
 </html>
